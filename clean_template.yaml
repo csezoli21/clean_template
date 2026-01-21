@@ -1,0 +1,22 @@
+# Default structure for the `init` command
+init:
+  - lib/core/error/
+  - lib/core/network/
+  - lib/core/usecases/
+  - lib/core/utils/
+  - lib/core/theme/
+  - lib/core/widgets/
+  - lib/features/
+
+# Default structure for the `feature` command
+# The <feature_name> will be replaced with the provided feature name.
+feature:
+  - lib/features/<feature_name>/data/datasources/
+  - lib/features/<feature_name>/data/models/
+  - lib/features/<feature_name>/data/repositories/
+  - lib/features/<feature_name>/domain/entities/
+  - lib/features/<feature_name>/domain/repositories/
+  - lib/features/<feature_name>/domain/usecases/
+  - lib/features/<feature_name>/presentation/pages/
+  - lib/features/<feature_name>/presentation/widgets/
+  - lib/features/<feature_name>/presentation/state/
