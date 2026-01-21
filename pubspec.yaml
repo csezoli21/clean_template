@@ -1,6 +1,6 @@
 name: clean_template
 description: A CLI tool to bootstrap a clean architecture for your Dart and Flutter projects.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/csezoli21/clean_template
 homepage: https://github.com/csezoli21/clean_template
 license: MIT
