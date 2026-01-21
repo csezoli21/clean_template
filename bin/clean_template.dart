@@ -7,7 +7,8 @@ import 'package:clean_template/src/commands/init_command.dart';
 
 /// The main entry point of the CLI.
 void main(List<String> arguments) {
-  final runner = CommandRunner('clean_template', 'A CLI tool for creating a clean architecture template for Flutter projects.')
+  final runner = CommandRunner<int>('clean_template',
+      'A CLI tool for creating a clean architecture template for Flutter projects.')
     ..addCommand(CreateConfigCommand())
     ..addCommand(InitCommand())
     ..addCommand(FeatureCommand());
